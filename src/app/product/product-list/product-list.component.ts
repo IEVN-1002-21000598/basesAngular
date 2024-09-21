@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent {
-  productos:any[]=[
+  //ngif = true || false
+
+
+  productoa:any[]=[
   {
     "productoID":1,
     "Modelo":"Sentra",
@@ -15,7 +18,7 @@ export class ProductListComponent {
     "Year":2023,
     "Marca":"NISSAN",
     "Color":"Azul",
-    "imgenURL":"",
+    "imgenURL":"https://th.bing.com/th/id/OIP.lq9e_8tuE95CAwlsh_TFJQHaEK?rs=1&pid=ImgDetMain",
   },
   {
     "productoID":2,
@@ -25,7 +28,7 @@ export class ProductListComponent {
     "Year":2022,
     "Marca":"AUDI",
     "Color":"Blanco",
-    "imgenURL":"",
+    "imgenURL":"https://th.bing.com/th/id/OIP.fhwoITXEzZUp_GDQc0-CTwHaFj?rs=1&pid=ImgDetMain",
   },
   {
     "productoID":3,
@@ -35,7 +38,7 @@ export class ProductListComponent {
     "Year":2020,
     "Marca":"KIA",
     "Color":"Azul",
-    "imgenURL":"",
+    "imgenURL":"https://th.bing.com/th/id/OIP.YQLpIK8yqOPw-CHiYPFRVQHaEA?rs=1&pid=ImgDetMain",
   },
 
 
