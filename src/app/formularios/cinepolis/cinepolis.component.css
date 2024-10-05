@@ -1,0 +1,32 @@
+.form_container{
+  width: 100%;
+  background-color: #477AF8;
+  padding: 50px;
+}
+
+.section, .acciones_container div{
+  width: 50%;
+  color: white;
+  border: 1px solid white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.section label {
+  width: 30%;
+}
+
+.acciones_container{
+  width: 100%;
+  background-color: #477AF8;
+  padding: 50px;
+
+}
+
+.separator {
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+  border: none;
+  width: 100%;
+}

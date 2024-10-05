@@ -1,0 +1,33 @@
+/* p{
+  color: blueviolet;
+} */
+
+.negro{background-color: black; color: white;}
+.azul{background-color: blue; color: white;}
+.violeta{background-color: blueviolet; color: white;}
+.cafe{background-color: brown; color: white;}
+.rojo{background-color: red; color: white;}
+.verde{background-color: green; color: white;}
+.gris{background-color: gray; color: white;}
+.naranja{background-color: orange;}
+.amarillo{background-color: yellow;}
+
+.black, .blue, .blueviolet, .brown, .red, .green, .gray{
+  color: white;
+}
+
+.oro{
+  background-color: #ffd700;
+}
+
+.plata{
+  background-color: #E3e4e5;
+}
+
+.separator {
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+  border: none;
+  width: 100%;
+}

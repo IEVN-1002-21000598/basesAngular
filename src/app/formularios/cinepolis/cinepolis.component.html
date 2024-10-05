@@ -1,0 +1,51 @@
+<form [formGroup] ="cinepolis_form">
+  <div class="d-flex form_container">
+    <div class="section">
+      <h3>Entradas: </h3>
+      <div class="d-flex">
+        <label for="">Nombre</label>
+        <input type="text" formControlName="nombre">
+      </div>
+      <div class="d-flex">
+        <label for="">Cantidad de compradores</label>
+        <input type="number" formControlName="compradores">
+      </div>
+      <div class="d-flex">
+        <div>
+          <label for="">Tarjeta Cineco</label>
+        </div>
+        <div class="d-flex">
+          <input type="radio" id="option_si" formControlName="tarjeta" value="si">
+          <label for="si">Sí</label>
+          <input type="radio" id="option_no" formControlName="tarjeta" value="no">
+          <label for="no">No</label>
+        </div>
+      </div>
+      <div class="d-flex">
+        <label for="">Cantidad de boletas</label>
+        <input type="number" formControlName="no_boletas">
+      </div>
+    </div>
+    <div class="section">
+      <h3>Salidas</h3>
+      <div class="d-flex">
+        <label for="">Valor a pagar</label>
+        <input type="number" id="no_pagar" value="{{totalpagar}}" disabled>
+      </div>
+      <div>
+        {{message}}
+      </div>
+    </div>
+  </div>
+  <div class="acciones_container">
+    <div>
+      <h3>Acciones</h3>
+      <button (click)="ProcesarPago()">Procesar</button>
+    </div>
+  </div>
+</form>
+
+
+<div class="separator"></div>
+
+
